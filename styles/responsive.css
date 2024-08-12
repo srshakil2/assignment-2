@@ -1,2 +1,42 @@
 @media screen and (max-width: 576px) {
+  /* .inter {
+    margin: 0 auto;
+  } */
+  /* nav bar & banner 1 is starts */
+  .navigation {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+  .nav-items {
+    display: none;
+  }
+  .ham {
+    display: block;
+    color: white;
+  }
+  .body {
+    display: block;
+  }
+  .healthy-description {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 51px;
+  }
+  .img-body {
+    margin: 0 auto;
+    margin-top: 60px;
+    max-width: 80%;
+  }
+  .free-work {
+    position: relative;
+    top: -465px;
+    left: 130%;
+  }
+  .tutorial {
+    position: relative;
+    top: -305px;
+    left: 15%;
+  }
+  /* nav bar & banner 1 is end */
 }

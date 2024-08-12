@@ -68,6 +68,14 @@ body {
 .nav-items {
   border: 1px solid violet;
   margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ham {
+  display: none;
+  color: white;
+  font-size: 2rem;
 }
 .btn-1 {
   border: none;
@@ -135,20 +143,24 @@ body {
   max-width: 349px;
   height: 580px;
   border: 2px solid greenyellow;
-  position: relative;
+  /* position: relative; */
 }
 .img-body > #jime {
   width: 100%;
   height: 100%;
 }
+.parent {
+  position: absolute;
+}
+
 .free-work {
   width: 193px;
   height: 98px;
   border: 1px solid wheat;
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.1);
-  position: absolute;
-  top: 125px;
+  position: relative;
+  top: -465px;
   left: 230px;
 }
 #videos {
@@ -165,4 +177,41 @@ body {
   font-weight: 400;
   margin-left: 24px;
 }
+.tutorial {
+  max-width: 206px;
+  height: 96px;
+  background: rgba(48, 48, 48, 0.54);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 18px 21px;
+  border-radius: 12px;
+  position: relative;
+  top: -305px;
+  left: -110px;
+}
+.ball {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgb(230, 83, 60);
+}
+#plus {
+  font-size: 1.6rem;
+  color: rgb(250, 250, 249);
+  font-weight: 800;
+}
+#tutorial {
+  color: rgba(239, 237, 232, 0.65);
+  margin-bottom: 30px;
+}
 /* jem end hare */
+/* banner-2  hare*/
+.banner-2 {
+  max-width: 1044px;
+  min-height: 452px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 2px solid yellow;
+}
