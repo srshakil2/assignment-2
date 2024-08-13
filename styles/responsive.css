@@ -39,4 +39,18 @@
     left: 15%;
   }
   /* nav bar & banner 1 is end */
+  /* banner-2 start */
+  .banner-2 {
+    margin-top: 600px;
+  }
+  .bottom-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .last {
+    margin-left: 1px;
+  }
+  /* banner-2 end */
 }
