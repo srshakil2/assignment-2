@@ -53,4 +53,31 @@
     margin-left: 1px;
   }
   /* banner-2 end */
+  /* banner-3 start */
+  .banner-3 {
+    margin-top: 920px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 353px;
+    height: 531px;
+  }
+  .left {
+    margin: 0 auto;
+    max-width: 287px;
+    height: 264px;
+  }
+  .btn-now {
+    margin: 0px;
+  }
+  #btn-now-1 {
+    text-align: center;
+  }
+  .right {
+    margin: 0 auto;
+    margin-bottom: 25px;
+    max-width: 287px;
+    height: 170px;
+  }
+  /* banner-3 end */
 }
