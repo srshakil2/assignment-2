@@ -14,9 +14,9 @@
 
 body {
   max-width: 1440px;
-  height: 4500px;
+  /* height: 4500px; */
   margin: 0 auto;
-  border: 2px solid greenyellow;
+  /* border: 2px solid greenyellow; */
   background: linear-gradient(
     180deg,
     rgb(17, 17, 17),
@@ -55,7 +55,7 @@ body {
 .navigation {
   max-width: 1060px;
   height: 48px;
-  border: 1px solid rebeccapurple;
+  /* border: 1px solid rebeccapurple; */
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 32px;
@@ -69,7 +69,7 @@ body {
   font-weight: 800;
 }
 .nav-items {
-  border: 1px solid violet;
+  /* border: 1px solid violet; */
   margin-right: 10px;
   display: flex;
   justify-content: center;
@@ -92,8 +92,8 @@ body {
 /* jem start hare */
 .body {
   max-width: 1060px;
-  /* height: 580px; */
-  border: 2px solid palevioletred;
+
+  /* border: 2px solid palevioletred; */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -103,7 +103,7 @@ body {
   height: 440px;
   margin-top: 96px;
   margin-bottom: 76px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 .jime-title {
   color: rgb(255, 255, 255);
@@ -145,8 +145,7 @@ body {
 .img-body {
   max-width: 349px;
   height: 580px;
-  border: 2px solid greenyellow;
-  /* position: relative; */
+  /* border: 2px solid greenyellow; */
 }
 .img-body > #jime {
   width: 100%;
@@ -159,7 +158,7 @@ body {
 .free-work {
   width: 193px;
   height: 98px;
-  border: 1px solid wheat;
+  /* border: 1px solid wheat; */
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.1);
   position: relative;
@@ -216,13 +215,13 @@ body {
   margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 100px;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
 }
 .top-div {
   max-width: 671px;
   height: 120px;
   margin: 0 auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-align: center;
 }
 #habits {
@@ -246,7 +245,7 @@ body {
   max-width: 1044px;
   height: 274px;
   margin-top: 57px;
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -254,7 +253,7 @@ body {
 .gol-pc {
   max-width: 231px;
   height: 274px;
-  border: 3px solid green;
+  /* border: 3px solid green; */
   text-align: center;
 }
 .last {
@@ -272,14 +271,14 @@ body {
   max-width: 1060px;
   height: 371px;
   margin: 0 auto;
-  border: 2px solid violet;
+  /* border: 2px solid violet; */
   display: flex;
   justify-content: space-between;
 }
 .left {
   max-width: 443px;
   height: 290px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 41px 162px 40px 53px;
 }
 .runing {
@@ -307,7 +306,7 @@ body {
 .right {
   max-width: 366px;
   height: 312px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   margin: 30px 30px 30px 0px;
 }
 #run {
@@ -316,12 +315,106 @@ body {
   border-radius: 18px;
 }
 /* banner-3 end */
+/* banner-4 start */
+
+.main-2 {
+  max-width: 1400px;
+  /* border: 2px solid white; */
+}
+.top {
+  max-width: 621px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.head-9 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 0px;
+}
+.p-9 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  margin-top: -20px;
+}
+
+.flex {
+  display: flex;
+}
+.bottom {
+  max-width: 1200px;
+  /* border: 2px solid blueviolet; */
+  background: rgb(34, 34, 34);
+  margin: 0 auto;
+  margin-top: 85px;
+  display: flex;
+  gap: 170px;
+}
+.left-5 {
+  max-width: 550px;
+  /* border: 1px solid salmon; */
+}
+.tbl-head {
+  color: rgb(255, 255, 255);
+  font-size: 1.7rem;
+  font-weight: 900;
+}
+.table {
+  display: flex;
+  margin: 0 auto;
+}
+.th-1 {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 500;
+  border: 1px solid rgb(66, 65, 65);
+  padding: 7px 20px;
+  margin-bottom: 0px;
+}
+.td {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  border: 1px solid rgb(66, 65, 65);
+  padding: 7px 20px;
+  margin: 0px;
+}
+
+.right-5 {
+  max-width: 577px;
+  height: 386px;
+  /* border: 1px solid blue; */
+}
+#bmi {
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+.p7 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+}
+
+.from {
+}
+.f-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 40px;
+}
+.i-1 {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  padding: 12px 40px 12px 20px;
+  border-radius: 8px;
+  border: none;
+}
+
 /* banner-5 start */
 
 .team {
   max-width: 1060px;
-  /* height: 782px; */
-  /* border: 2px solid rosybrown; */
   margin: 0 auto;
   margin-top: 90px;
 }
@@ -341,7 +434,8 @@ body {
 .pc-6 {
   max-width: 270.67px;
   /* border: 1px solid blue; */
-  margin: 30px 0px 0px 40px;
+  margin: 0 auto;
+  padding-top: 15px;
   overflow: hidden;
 }
 .teni-1 {
@@ -367,16 +461,9 @@ body {
 /* banner-5 end */
 /* footer is start */
 
-/* .ftr {
-  width: 1440px;
-  height: 489px;
-  border: 2px solid red;
-  mar
-} */
 .main {
   max-width: 1059px;
-  /* height: 249px; */
-  border: 2px solid white;
+  /* border: 2px solid white; */
   margin: 0 auto;
   margin-top: 90px;
   display: flex;
@@ -384,8 +471,7 @@ body {
 }
 .left-f {
   max-width: 443px;
-  /* height: 176px; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .fitness {
   color: rgb(230, 83, 60);
@@ -399,17 +485,6 @@ body {
   font-size: 0.9rem;
   font-weight: 400;
   margin-top: -50px;
-}
-
-.circel-f {
-  /* width: 181px;
-  height: 249px; */
-  border: 1px solid blue;
-}
-.right-f {
-  /* width: 181px;
-  height: 249px; */
-  border: 1px solid yellowgreen;
 }
 .get {
   color: rgb(255, 255, 255);

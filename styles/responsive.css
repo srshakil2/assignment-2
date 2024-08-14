@@ -1,7 +1,4 @@
 @media screen and (min-width: 400px) and (max-width: 576px) {
-  /* .inter {
-    margin: 0 auto;
-  } */
   /* nav bar & banner 1 is starts */
   .navigation {
     max-width: 90%;
@@ -57,9 +54,7 @@
   }
   /* nav bar & banner 1 is end */
   /* banner-2 start */
-  /* .banner-2 {
-    margin-top: 400px;
-  } */
+
   .bottom-div {
     display: flex;
     flex-direction: column;
@@ -99,19 +94,16 @@
   /* banner-3 end */
   /* banner-5 starts */
   .pc-main {
-    /* max-width: 1000px; */
     margin: 0 auto;
     background: rgba(255, 255, 255, 0.1);
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin-left: 15%;
   }
   /* banner-5 end */
   /* footer is start */
 
   .main {
     max-width: 1059px;
-    border: 2px solid white;
     margin-top: 90px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -121,5 +113,15 @@
   .circel-f,
   .right-f {
     margin-left: 30px;
+  }
+  .bottom {
+    /* max-width: 1200px; */
+    /* border: 2px solid blueviolet; */
+    background: rgb(34, 34, 34);
+    margin: 0 auto;
+    /* margin-top: 85px; */
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
   }
 }
