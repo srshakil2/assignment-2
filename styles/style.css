@@ -7,6 +7,7 @@
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "slnt" 0;
+  background-color: rgb(24, 24, 24);
 }
 
 body {
@@ -89,7 +90,7 @@ body {
 /* jem start hare */
 .body {
   max-width: 1060px;
-  height: 580px;
+  /* height: 580px; */
   border: 2px solid palevioletred;
   margin: 0 auto;
   display: flex;
@@ -313,3 +314,73 @@ body {
   border-radius: 18px;
 }
 /* banner-3 end */
+/* banner-5 start */
+
+.team {
+  max-width: 1060px;
+  /* height: 782px; */
+  /* border: 2px solid rosybrown; */
+  margin: 0 auto;
+  margin-top: 90px;
+}
+.head {
+  margin: 0 auto;
+  margin-bottom: 55px;
+  text-align: center;
+}
+.pc-main {
+  max-width: 1000px;
+  margin: 0 auto;
+  /* border: 1px solid seashell; */
+  background: rgba(255, 255, 255, 0.1);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.pc-6 {
+  max-width: 270.67px;
+  /* border: 1px solid blue; */
+  margin: 30px 0px 0px 40px;
+  overflow: hidden;
+}
+.teni-1 {
+  max-width: 100%;
+  min-height: 90%;
+  border-radius: 18px;
+}
+
+.coch {
+  color: rgb(255, 255, 255);
+  position: relative;
+  bottom: 25%;
+  left: 5%;
+  font-size: 900;
+  font-weight: 900;
+}
+.profetion {
+  color: rgb(208, 206, 206);
+  position: relative;
+  bottom: 29%;
+  left: 5%;
+}
+/* banner-5 end */
+/* footer is start */
+
+/* .ftr {
+  width: 1440px;
+  height: 489px;
+  border: 2px solid red;
+  mar
+} */
+.main {
+  width: 1059px;
+  height: 249px;
+  border: 2px solid white;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+.left-f {
+}
+.circel-f {
+}
+.right-f {
+}

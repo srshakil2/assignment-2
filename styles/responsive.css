@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 400px) and (max-width: 576px) {
   /* .inter {
     margin: 0 auto;
   } */
@@ -18,20 +18,37 @@
   .body {
     display: block;
   }
+
   .healthy-description {
     max-width: 90%;
     margin: 0 auto;
     margin-top: 51px;
   }
+  .jime-title {
+    max-width: 285px;
+    min-height: 129px;
+    font-size: 2rem;
+  }
+  .jime-pera {
+    max-width: 274px;
+    min-height: 96px;
+  }
+
   .img-body {
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: -120px;
     max-width: 80%;
   }
   .free-work {
+    max-width: 145.91px;
+    min-height: 50.09px;
     position: relative;
-    top: -465px;
-    left: 130%;
+    top: -450px;
+    left: 200px;
+  }
+  #jime {
+    max-width: 353px;
+    min-height: 400px;
   }
   .tutorial {
     position: relative;
@@ -40,9 +57,9 @@
   }
   /* nav bar & banner 1 is end */
   /* banner-2 start */
-  .banner-2 {
-    margin-top: 600px;
-  }
+  /* .banner-2 {
+    margin-top: 400px;
+  } */
   .bottom-div {
     display: flex;
     flex-direction: column;
@@ -80,4 +97,13 @@
     height: 170px;
   }
   /* banner-3 end */
+  /* banner-5 starts */
+  .pc-main {
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 15%;
+  }
 }
