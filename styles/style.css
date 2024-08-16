@@ -382,8 +382,8 @@ body {
 
 .right-5 {
   max-width: 577px;
-  height: 386px;
-  /* border: 1px solid blue; */
+  /* height: 386px; */
+  /* border: 3px solid blue; */
 }
 #bmi {
   color: rgb(255, 255, 255);
@@ -395,20 +395,58 @@ body {
   font-size: 0.8rem;
 }
 
-.from {
+.form-1 {
 }
-.f-1 {
+.cild-1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  margin-top: 40px;
-}
-.i-1 {
-  background: rgba(255, 255, 255, 0.1);
-  color: rgba(255, 255, 255, 0.6);
-  padding: 12px 40px 12px 20px;
+  gap: 12px;
+  margin-bottom: 12px;
+  margin-top: 12px;
   border-radius: 8px;
+  /* background: rgba(255, 255, 255, 0.1); */
+}
+.gcild {
+  background: rgba(255, 255, 255, 0.1);
   border: none;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 10px 10px;
+  width: 16.5vw;
+}
+.brd {
+  border-radius: 8px;
+}
+#s-1,
+#s-2 {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+}
+#d-4 {
+  width: 82%;
+  border-radius: 8px 0px 0px 8px;
+}
+.a-4 {
+  display: flex;
+}
+.a-5 {
+  display: flex;
+}
+#e-5 {
+  width: 91%;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+}
+#f-5 {
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 16px 40px 16px 40px;
+  background: rgb(230, 83, 60);
+  border-radius: 42px;
+  border: none;
+  margin-top: 28px;
 }
 
 /* banner-5 start */
